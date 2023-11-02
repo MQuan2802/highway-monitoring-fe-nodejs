@@ -1,0 +1,22 @@
+{
+    "dailyInsights": {
+        "bus": 0.0,
+        "car": 1.0,
+        "truck": 0.0,
+        "commercial": 0.0,
+        "non_commerical": 1.0,
+        "total_in": 100,
+        "morning_rush_hour_entry": 0,
+        "evening_rush_hour_entry": 0,
+        "window_start": "2023-10-24",
+        "window_end": "2023-10-24",
+        "speed_unit": "KM/H",
+        "average_speed": 169.6
+    },
+    "realtimeInsights": {
+        "window_start": "2023-10-24T14:28:00",
+        "window_end": "2023-10-24T14:29:00",
+        "entry_count": 8,
+        "exit_count": 0
+    }
+}
