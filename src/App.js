@@ -25,7 +25,7 @@ function App() {
   
   function fetchRealtimeData() {
     return new Promise(function (resolve, reject) {
-      fetch('http://localhost:3500/api/realtimeInsights')
+      fetch('http://localhost:8080/api/realtimeInsights')
         .then(function (response) {
           if (!response.ok) {
             throw new Error('Network response was not ok');
@@ -54,7 +54,7 @@ function App() {
   // };
 
   const handleSelectChange = (selectedOption) => {
-      fetch(`http://localhost:3500/api/dailyInsights?requestDate=${selectedOption.value}`)
+      fetch(`http://localhost:8080/api/dailyInsights?requestDate=${selectedOption.value}`)
         .then(async (response) => {
           if (response.ok) {
             const jsonRes = await response.json();
@@ -80,7 +80,7 @@ function App() {
   }, []);
 
   React.useEffect(() => {
-    fetch("http://localhost:3500/api/dailyInsights")
+    fetch("http://localhost:8080/api/dailyInsights")
       .then(async (response) => {
         if (response.ok) {
           const jsonRes = await response.json();
@@ -269,7 +269,7 @@ function App() {
   return (
     <div className="main">
       <h1>
-        High way monitoring dashboard
+        HIGHWAY MONITORING DASHBOARD
       </h1>
       <Select
         style={{width: 200}}
@@ -290,7 +290,7 @@ function App() {
             <div id="chart-container" />
         </>
         <SummaryItem label="Total Vehicle" value={data?.total_in ?? 0} />
-        <SummaryItem label="Average Speed" value={data?.average_speed ?? 0} />
+        <SummaryItem label="Average Speed" description="KM/H" value={data?.average_speed ?? 0} />
       </div>
       <div className="rowItem">
         <SummaryPie
@@ -305,12 +305,12 @@ function App() {
         </>
         <SummaryItem
           label="Total Car Entry"
-          description="in rush hour"
+          description="in morning rush hour"
           value={data?.morning_rush_hour_entry ?? 0}
         />
         <SummaryItem
-          label="Total Car Exit"
-          description="in rush hour"
+          label="Total Car ENTRY"
+          description="in evening rush hour"
           value={data?.evening_rush_hour_entry ?? 0}
         />
       </div>
