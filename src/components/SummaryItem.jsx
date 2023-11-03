@@ -5,7 +5,7 @@ export const SummaryItem = ({label, description, value}) => {
         <div style={{width: '500px', textAlign: 'center', padding: '10px', border: '1px solid #000000',}}>
             <div>
                 <h2 style={{fontSize: 'bold'}}>{label}</h2>
-                {description ? <p style={{color: 'grey'}}>{description}</p> : null}
+                {description ? <h3 style={{color: 'grey'}}>{description}</h3> : null}
             </div>
             <p style={{fontSize: '70px', fontWeight:'500'}}>{value}</p>
         </div>

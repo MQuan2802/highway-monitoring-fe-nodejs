@@ -1,0 +1,713 @@
+Script started on Fri Nov  3 11:11:02 2023
+[0m[49m[39m[27m[24m[K
+[1A7[0m[49m[39m[0m[48;5;238m[38;5;255m [0m[38;5;255m[48;5;238m[48;5;238m[38;5;255m [0m[38;5;255m[48;5;238m[48;5;238m[38;5;246m[0m[38;5;246m[48;5;238m[48;5;238m[38;5;31m  [1m[38;5;31m[48;5;238m[38;5;39m~[0m[38;5;39m[48;5;238m[48;5;238m[38;5;31m/Documents/project/[1m[38;5;31m[48;5;238m[38;5;39mhighway-monitoring-fe-nodejs[0m[38;5;39m[48;5;238m[48;5;238m[38;5;31m[0m[38;5;31m[48;5;238m[48;5;238m[38;5;31m [0m[38;5;31m[48;5;238m[49m[38;5;238m[0m[38;5;238m[49m[39m [0m[49m[39m                                                                                                               [0m[49m[38;5;238m[0m[38;5;238m[48;5;238m[38;5;70m [0m[38;5;70m[48;5;238m[48;5;238m[38;5;70m✔[0m[38;5;70m[48;5;238m[48;5;238m[38;5;70m [0m[38;5;70m[48;5;238m[48;5;238m[38;5;70m[0m[38;5;70m[48;5;238m[48;5;238m[38;5;66m[38;5;246m[0m[38;5;246m[48;5;238m[48;5;238m[38;5;66m 11:11:02[0m[38;5;66m[48;5;238m[48;5;238m[38;5;66m [0m[38;5;66m[48;5;238m[48;5;238m[38;5;66m [0m[38;5;66m[48;5;238m[49m[39m[0m[49m[39m[27m[24m[58C[?2004h[?25l8[0m[49m[39m[27m[24m[J]2;antran@SGN-C02F40WJMD6T:~/Documents/project/highway-monitoring-fe-nodejs]1;..ing-fe-nodejs[0m[38;5;31m[49m[39m[27m[24m[1m[7m%[27m[1m[0m                                                                                                                                                                                          [0m[49m[39m[27m[24m[K[0m[27m[24m[J[0m[49m[39m[0m[48;5;238m[38;5;255m [0m[38;5;255m[48;5;238m[48;5;238m[38;5;255m [0m[38;5;255m[48;5;238m[48;5;238m[38;5;246m[0m[38;5;246m[48;5;238m[48;5;238m[38;5;31m  [1m[38;5;31m[48;5;238m[38;5;39m~[0m[38;5;39m[48;5;238m[48;5;238m[38;5;31m/Documents/project/[1m[38;5;31m[48;5;238m[38;5;39mhighway-monitoring-fe-nodejs[0m[38;5;39m[48;5;238m[48;5;238m[38;5;31m[0m[38;5;31m[48;5;238m[48;5;238m[38;5;31m [0m[38;5;31m[48;5;238m[48;5;238m[38;5;246m[0m[38;5;246m[48;5;238m[48;5;238m[38;5;76m  [38;5;76m main [38;5;39m?1[0m[38;5;39m[48;5;238m[48;5;238m[38;5;76m [0m[38;5;76m[48;5;238m[49m[38;5;238m[0m[38;5;238m[49m[39m [0m[49m[39m[K[97C[0m[49m[38;5;238m[0m[38;5;238m[48;5;238m[38;5;70m [0m[38;5;70m[48;5;238m[48;5;238m[38;5;70m✔[0m[38;5;70m[48;5;238m[48;5;238m[38;5;70m [0m[38;5;70m[48;5;238m[48;5;238m[38;5;70m[0m[38;5;70m[48;5;238m[48;5;238m[38;5;66m[38;5;246m[0m[38;5;246m[48;5;238m[48;5;238m[38;5;66m 11:11:02[0m[38;5;66m[48;5;238m[48;5;238m[38;5;66m [0m[38;5;66m[48;5;238m[48;5;238m[38;5;66m [0m[38;5;66m[48;5;238m[49m[39m[114D[?1h=[?25h[?2004hsstart     sstart     nnpm start[?1l>[?2004l
+]2;npm start]1;npm
+> highway-monitor-app@0.1.0 start
+> react-scripts start
+
+sh: react-scripts: command not found
+[1m[7m%[27m[1m[0m                                                                                                                                                                                           ]2;antran@SGN-C02F40WJMD6T:~/Documents/project/highway-monitoring-fe-nodejs]1;..ing-fe-nodejs[0m[27m[24m[J[0m[49m[39m[0m[48;5;238m[38;5;255m [0m[38;5;255m[48;5;238m[48;5;238m[38;5;255m [0m[38;5;255m[48;5;238m[48;5;238m[38;5;246m[0m[38;5;246m[48;5;238m[48;5;238m[38;5;31m  [1m[38;5;31m[48;5;238m[38;5;39m~[0m[38;5;39m[48;5;238m[48;5;238m[38;5;31m/[38;5;103mDoc[0m[38;5;103m[48;5;238m[48;5;238m[38;5;31m/project/[1m[38;5;31m[48;5;238m[38;5;39mhighway-monitoring-fe-nodejs[0m[38;5;39m[48;5;238m[48;5;238m[38;5;31m[0m[38;5;31m[48;5;238m[48;5;238m[38;5;31m [0m[38;5;31m[48;5;238m[48;5;238m[38;5;246m[0m[38;5;246m[48;5;238m[48;5;238m[38;5;76m  [38;5;76m main [38;5;39m?1[0m[38;5;39m[48;5;238m[48;5;238m[38;5;76m [0m[38;5;76m[48;5;238m[49m[38;5;238m[0m[38;5;238m[49m[39m [0m[49m[39m[K[99C[0m[49m[38;5;238m[0m[38;5;238m[48;5;238m[38;5;160m 127[0m[38;5;160m[48;5;238m[48;5;238m[38;5;160m ✘[0m[38;5;160m[48;5;238m[48;5;238m[38;5;160m [0m[38;5;160m[48;5;238m[48;5;238m[38;5;160m[0m[38;5;160m[48;5;238m[48;5;238m[38;5;66m[38;5;246m[0m[38;5;246m[48;5;238m[48;5;238m[38;5;66m 11:11:07[0m[38;5;66m[48;5;238m[48;5;238m[38;5;66m [0m[38;5;66m[48;5;238m[48;5;238m[38;5;66m [0m[38;5;66m[48;5;238m[49m[39m[120D[?1h=[?2004hnnpm i[?1l>[?2004l
+]2;npm i]1;npm[?25l⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 691ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 691ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 691ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 691ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 691ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 691ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠹ reify:@aashutoshrathi/word-wrap: [7msill[0m [35maudit[0m bulk request {[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠹ reify:@aashutoshrathi/word-wrap: [7msill[0m [35maudit[0m bulk request {[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠹ reify:@aashutoshrathi/word-wrap: [7msill[0m [35maudit[0m bulk request {[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠹ reify:@aashutoshrathi/word-wrap: [7msill[0m [35maudit[0m bulk request {[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠼ reify:@aashutoshrathi/word-wrap: [7msill[0m [35maudit[0m bulk request {[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠹ reify:@aashutoshrathi/word-wrap: [7msill[0m [35maudit[0m bulk request {[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠹ reify:@aashutoshrathi/word-wrap: [7msill[0m [35maudit[0m bulk request {[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠹ reify:@aashutoshrathi/word-wrap: [7msill[0m [35maudit[0m bulk request {[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠹ reify:@aashutoshrathi/word-wrap: [7msill[0m [35maudit[0m bulk request {[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ reify:@aashutoshrathi/word-wrap: [7msill[0m [35maudit[0m bulk request {[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ reify:@aashutoshrathi/word-wrap: [7msill[0m [35maudit[0m bulk request {[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ reify:@aashutoshrathi/word-wrap: [7msill[0m [35maudit[0m bulk request {[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ reify:@aashutoshrathi/word-wrap: [7msill[0m [35maudit[0m bulk request {[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ reify:@aashutoshrathi/word-wrap: [7msill[0m [35maudit[0m bulk request {[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ reify:read-cache: [32;40mtiming[0m [35mreifyNode:node_modules/recursive-readdir[0m Completed in 5166ms[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+[0m[?25l⸨[107;97m##########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠋ reify:redent: [32;40mtiming[0m [35mreifyNode:node_modules/resolve-cwd[0m Completed in 5365ms[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m @babel/plugin-proposal-private-methods@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-methods instead.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m @babel/plugin-proposal-numeric-separator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator instead.
+[0m[?25l⸨[107;97m###########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ reify:sisteransi: [32;40mtiming[0m [35mreifyNode:node_modules/steno[0m Completed in 5559ms[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m rollup-plugin-terser@7.0.2: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-terser
+[0m[?25l⸨[107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m⸩ ⠧ reify:react-app-polyfill: [32;40mtiming[0m [35mreifyNode:node_modules/regex-parser[0m Completed in 5688ms[0m[K⸨[107;97m#############[0m[100;90m⠂⠂⠂⠂⠂[0m⸩ ⠇ reify:regenerate: [32;40mtiming[0m [35mreifyNode:node_modules/require-directory[0m Completed in 5791ms[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+[0m[?25l⸨[107;97m#############[0m[100;90m⠂⠂⠂⠂⠂[0m⸩ ⠧ reify:resolve.exports: [32;40mtiming[0m [35mreifyNode:node_modules/stackframe[0m Completed in 5881ms[0m[K⸨[107;97m#############[0m[100;90m⠂⠂⠂⠂⠂[0m⸩ ⠇ reify:color-convert: [32;40mtiming[0m [35mreifyNode:node_modules/eslint/node_modules/color-convert[0m Completed in 5759ms[0m[K⸨[107;97m##############[0m[100;90m⠂⠂⠂⠂[0m⸩ ⠧ reify:@types/babel__traverse: [32;40mtiming[0m [35mreifyNode:node_modules/@types/yargs[0m Completed in 5747ms[0m[K⸨[107;97m##############[0m[100;90m⠂⠂⠂⠂[0m⸩ ⠧ reify:regjsparser: [32;40mtiming[0m [35mreifyNode:node_modules/sanitize.css[0m Completed in 6058ms[0m[K⸨[107;97m##############[0m[100;90m⠂⠂⠂⠂[0m⸩ ⠹ reify:set-function-length: [32;40mtiming[0m [35mreifyNode:node_modules/send[0m Completed in 6155ms[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+[0m[?25l⸨[107;97m##############[0m[100;90m⠂⠂⠂⠂[0m⸩ ⠦ reify:regexpu-core: [32;40mtiming[0m [35mreifyNode:node_modules/react-is[0m Completed in 6226ms[0m[K⸨[107;97m###############[0m[100;90m⠂⠂⠂[0m⸩ ⠇ reify:saxes: [32;40mtiming[0m [35mreifyNode:node_modules/side-channel[0m Completed in 6294ms[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
+[0m[?25l⸨[107;97m###############[0m[100;90m⠂⠂⠂[0m⸩ ⠸ reify:browserslist: [32;40mtiming[0m [35mreifyNode:node_modules/cssdb[0m Completed in 6172ms[0m[K⸨[107;97m###############[0m[100;90m⠂⠂⠂[0m⸩ ⠙ reify:util.promisify: [32;40mtiming[0m [35mreifyNode:node_modules/v8-to-istanbul[0m Completed in 6500ms[0m[K⸨[107;97m###############[0m[100;90m⠂⠂⠂[0m⸩ ⠹ reify:@jest/types: [32;40mtiming[0m [35mreifyNode:node_modules/@svgr/hast-util-to-babel-ast[0m Completed in 6249ms[0m[K⸨[107;97m###############[0m[100;90m⠂⠂⠂[0m⸩ ⠴ reify:tough-cookie: [32;40mtiming[0m [35mreifyNode:node_modules/utila[0m Completed in 6654ms[0m[K⸨[107;97m###############[0m[100;90m⠂⠂⠂[0m⸩ ⠙ reify:websocket-extensions: [32;40mtiming[0m [35mreifyNode:node_modules/postcss-svgo/node_modules/commander[0m Completed in 6647ms[0m[K⸨[107;97m################[0m[100;90m⠂⠂[0m⸩ ⠇ reify:debug: [32;40mtiming[0m [35mreifyNode:node_modules/react-dev-utils/node_modules/loader-utils[0m Completed in 6755ms[0m[K⸨[107;97m################[0m[100;90m⠂⠂[0m⸩ ⠼ reify:html-webpack-plugin: [32;40mtiming[0m [35mreifyNode:node_modules/identity-obj-proxy[0m Completed in 6719ms[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m[?25l⸨[107;97m################[0m[100;90m⠂⠂[0m⸩ ⠴ reify:faye-websocket: [32;40mtiming[0m [35mreifyNode:node_modules/loader-utils[0m Completed in 6874ms[0m[K⸨[107;97m################[0m[100;90m⠂⠂[0m⸩ ⠦ reify:entities: [32;40mtiming[0m [35mreifyNode:node_modules/eslint-scope[0m Completed in 6856ms[0m[K⸨[107;97m################[0m[100;90m⠂⠂[0m⸩ ⠇ reify:exit: [32;40mtiming[0m [35mreifyNode:node_modules/jest-resolve[0m Completed in 7000ms[0m[K⸨[107;97m################[0m[100;90m⠂⠂[0m⸩ ⠦ reify:scheduler: [32;40mtiming[0m [35mreifyNode:node_modules/source-map-js[0m Completed in 7143ms[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m workbox-cacheable-response@6.6.0: workbox-background-sync@6.6.0
+[0m[?25l⸨[107;97m################[0m[100;90m⠂⠂[0m⸩ ⠹ reify:htmlparser2: [32;40mtiming[0m [35mreifyNode:node_modules/lowdb[0m Completed in 7133ms[0m[K⸨[107;97m################[0m[100;90m⠂⠂[0m⸩ ⠋ reify:express: [32;40mtiming[0m [35mreifyNode:node_modules/jest-snapshot[0m Completed in 7167ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠙ reify:http-proxy: [32;40mtiming[0m [35mreifyNode:node_modules/http-proxy-middleware[0m Completed in 7183ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠼ reify:hpack.js: [32;40mtiming[0m [35mreifyNode:node_modules/postcss-calc[0m Completed in 7330ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠏ reify:base64-arraybuffer: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/base64-arraybuffer/-/base64-arraybuffer-1.0.2.tgz 6368ms (cache miss)[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠹ reify:json-server: [32;40mtiming[0m [35mreifyNode:node_modules/promise-polyfill[0m Completed in 7472ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠸ reify:@emotion/hash: [32;40mtiming[0m [35mreifyNode:node_modules/react-dev-utils[0m Completed in 7538ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠹ reify:object-inspect: [32;40mtiming[0m [35mreifyNode:node_modules/postcss-ordered-values[0m Completed in 7574ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠋ reify:memfs: [32;40mtiming[0m [35mreifyNode:node_modules/workbox-expiration[0m Completed in 7696ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠸ reify:@typescript-eslint/types: [32;40mtiming[0m [35mreifyNode:node_modules/css-select[0m Completed in 7494ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠋ reify:fflate: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/fflate/-/fflate-0.4.8.tgz 6729ms (cache miss)[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠇ reify:cosmiconfig: [32;40mtiming[0m [35mreifyNode:node_modules/@floating-ui/dom[0m Completed in 7517ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠏ reify:stackblur-canvas: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/stackblur-canvas/-/stackblur-canvas-2.6.0.tgz 6944ms (cache miss)[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠹ reify:fs-extra: [32;40mtiming[0m [35mreifyNode:node_modules/workbox-build/node_modules/fs-extra[0m Completed in 7975ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠏ reify:js-yaml: [32;40mtiming[0m [35mreifyNode:node_modules/@eslint/eslintrc/node_modules/js-yaml[0m Completed in 7694ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠴ reify:@floating-ui/core: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@floating-ui/core/-/core-1.5.0.tgz 6905ms (cache miss)[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠏ reify:source-map: [32;40mtiming[0m [35mreifyNode:node_modules/escodegen/node_modules/source-map[0m Completed in 7935ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠇ reify:csstype: [32;40mtiming[0m [35mreifyNode:node_modules/jsonpath/node_modules/esprima[0m Completed in 8107ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠸ reify:@sinclair/typebox: [32;40mtiming[0m [35mreifyNode:node_modules/dom-accessibility-api[0m Completed in 8029ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠧ reify:@typescript-eslint/type-utils: [32;40mtiming[0m [35mreifyNode:node_modules/react-fusioncharts[0m Completed in 8295ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠇ reify:uri-js: [32;40mtiming[0m [35mreifyNode:node_modules/@typescript-eslint/type-utils[0m Completed in 8087ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠏ reify:workbox-strategies: [32;40mtiming[0m [35mreifyNode:node_modules/uri-js[0m Completed in 8398ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠼ reify:uuid: [32;40mtiming[0m [35mreifyNode:node_modules/acorn-globals/node_modules/acorn[0m Completed in 8247ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠋ reify:@bcoe/v8-coverage: [32;40mtiming[0m [35mreifyNode:node_modules/bluebird[0m Completed in 8324ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠧ reify:yargs: [32;40mtiming[0m [35mreifyNode:node_modules/web-vitals[0m Completed in 8638ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠸ reify:css-line-break: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/css-line-break/-/css-line-break-2.1.0.tgz 7626ms (cache miss)[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠼ reify:prompts: [32;40mtiming[0m [35mreifyNode:node_modules/css-line-break[0m Completed in 8479ms[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
+[0m[?25l⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠙ reify:@babel/helpers: [32;40mtiming[0m [35mreifyNode:node_modules/serve-index[0m Completed in 8789ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠼ reify:webpack-dev-server: [32;40mtiming[0m [35mreifyNode:node_modules/autoprefixer[0m Completed in 8584ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠴ reify:language-subtag-registry: [32;40mtiming[0m [35mreifyNode:node_modules/webpack-dev-server[0m Completed in 8874ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠴ reify:language-subtag-registry: [32;40mtiming[0m [35mreifyNode:node_modules/webpack-dev-server[0m Completed in 8874ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠦ reify:@jest/core: [32;40mtiming[0m [35mreifyNode:node_modules/language-subtag-registry[0m Completed in 8797ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠦ reify:@jest/core: [32;40mtiming[0m [35mreifyNode:node_modules/language-subtag-registry[0m Completed in 8797ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠧ reify:istanbul-reports: [32;40mtiming[0m [35mreifyNode:node_modules/@jest/core[0m Completed in 8678ms[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠋ reify:dompurify: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/dompurify/-/dompurify-2.4.7.tgz 8087ms (cache miss)[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠋ reify:dompurify: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/dompurify/-/dompurify-2.4.7.tgz 8087ms (cache miss)[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠧ reify:@babel/traverse: [32;40mtiming[0m [35mmetavuln:calculate:security-advisory:svgo:A7nkDvtbIbg2wZQ1TqB9w6GY9qrjGTvP4WquxRy40Z5Jhz/1HX/Yedp9SJBE8fwwzl/dDwvDX2WH3SSDDac8nw==[0m Co[0m[K⸨[107;97m##################[0m⸩ ⠇ reify:renderkid: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/traverse[0m Completed in 8950ms[0m[K⸨[107;97m##################[0m⸩ ⠹ reify:neo-async: [32;40mtiming[0m [35mreifyNode:node_modules/jiti[0m Completed in 9290ms[0m[K⸨[107;97m##################[0m⸩ ⠸ reify:workbox-precaching: [32;40mtiming[0m [35mmetavuln:cache:get:security-advisory:react-scripts:VLrOOlrnyxIUVrcP5CAA7KsiMs7GyjBNG8XgkbDIfYL0ipEBy/j0GbtxfjIrzsx2zMKBmgCACmyYYvu[0m[K⸨[107;97m##################[0m⸩ ⠴ reify:axobject-query: [32;40mtiming[0m [35mreifyNode:node_modules/jsx-ast-utils[0m Completed in 9383ms[0m[K⸨[107;97m##################[0m⸩ ⠧ reify:es-iterator-helpers: [32;40mtiming[0m [35mreifyNode:node_modules/@testing-library/user-event[0m Completed in 9232ms[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:workbox-core: [32;40mtiming[0m [35mreifyNode:node_modules/immer[0m Completed in 9454ms[0m[K⸨[107;97m##################[0m⸩ ⠸ reify:workbox-core: [32;40mtiming[0m [35mreifyNode:node_modules/immer[0m Completed in 9454ms[0m[K⸨[107;97m##################[0m⸩ ⠴ reify:svgo: [32;40mtiming[0m [35mreifyNode:node_modules/@remix-run/router[0m Completed in 9387ms[0m[K⸨[107;97m##################[0m⸩ ⠧ reify:workbox-build: [32;40mtiming[0m [35mreifyNode:node_modules/postcss-svgo/node_modules/svgo[0m Completed in 9666ms[0m[K⸨[107;97m##################[0m⸩ ⠴ reify:node-forge: [32;40mtiming[0m [35mreifyNode:node_modules/css-minimizer-webpack-plugin/node_modules/ajv-keywords[0m Completed in 9574ms[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:terser: [32;40mtiming[0m [35mreifyNode:node_modules/@testing-library/react/node_modules/aria-query[0m Completed in 9569ms[0m[K⸨[107;97m##################[0m⸩ ⠋ reify:aria-query: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@emotion/react/-/react-11.11.1.tgz 8700ms (cache miss)[0m[K⸨[107;97m##################[0m⸩ ⠸ reify:common-tags: [32;40mtiming[0m [35mreifyNode:node_modules/@emotion/react[0m Completed in 9641ms[0m[K⸨[107;97m##################[0m⸩ ⠇ reify:clean-css: [32;40mtiming[0m [35mreifyNode:node_modules/common-tags[0m Completed in 9753ms[0m[K⸨[107;97m##################[0m⸩ ⠋ reify:resolve: [32;40mtiming[0m [35mmetavuln:calculate:security-advisory:@svgr/plugin-svgo:yM0+6BFhzmlVIyH7f4/nXtA41sNQYoVzFD+vYvEVUUH46dcwj469Ec7X4bNBWwXRuNTJNfvEoQMPrd89eS5EBg[0m[K⸨[107;97m##################[0m⸩ ⠹ reify:@babel/core: [32;40mtiming[0m [35mreifyNode:node_modules/eslint-plugin-react/node_modules/resolve[0m Completed in 9904ms[0m[K⸨[107;97m##################[0m⸩ ⠦ reify:@babel/runtime: [32;40mtiming[0m [35mreifyNode:node_modules/svg.js[0m Completed in 10173ms[0m[K⸨[107;97m##################[0m⸩ ⠼ reify:css-tree: [32;40mtiming[0m [35mreifyNode:node_modules/@typescript-eslint/typescript-estree[0m Completed in 9961ms[0m[K⸨[107;97m##################[0m⸩ ⠦ reify:css-tree: [32;40mtiming[0m [35mreifyNode:node_modules/csso/node_modules/css-tree[0m Completed in 10054ms[0m[K⸨[107;97m##################[0m⸩ ⠹ reify:@surma/rollup-plugin-off-main-thread: [32;40mtiming[0m [35mreify:audit[0m Completed in 10357ms[0m[K⸨[107;97m##################[0m⸩ ⠹ reify:@surma/rollup-plugin-off-main-thread: [32;40mtiming[0m [35mreify:audit[0m Completed in 10357ms[0m[K⸨[107;97m##################[0m⸩ ⠇ reify:react-select: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/react-select/-/react-select-5.7.7.tgz 9476ms (cache miss)[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:canvg: [32;40mtiming[0m [35mreifyNode:node_modules/react-select[0m Completed in 10423ms[0m[K⸨[107;97m##################[0m⸩ ⠹ reify:eslint-plugin-jsx-a11y: [32;40mtiming[0m [35mreifyNode:node_modules/react-dom[0m Completed in 10524ms[0m[K⸨[107;97m##################[0m⸩ ⠴ reify:@typescript-eslint/utils: [32;40mtiming[0m [35mreifyNode:node_modules/@fusioncharts/features[0m Completed in 10285ms[0m[K⸨[107;97m##################[0m⸩ ⠴ reify:@typescript-eslint/utils: [32;40mtiming[0m [35mreifyNode:node_modules/@fusioncharts/features[0m Completed in 10285ms[0m[K⸨[107;97m##################[0m⸩ ⠧ reify:@fusioncharts/fusiontime: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@fusioncharts/fusiontime/-/fusiontime-2.8.2.tgz 9580ms (cache miss)[0m[K⸨[107;97m##################[0m⸩ ⠇ reify:@fusioncharts/fusiontime: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@fusioncharts/fusiontime/-/fusiontime-2.8.2.tgz 9580ms (cache miss)[0m[K⸨[107;97m##################[0m⸩ ⠋ reify:sucrase: [32;40mtiming[0m [35mreifyNode:node_modules/dom-helpers[0m Completed in 10563ms[0m[K⸨[107;97m##################[0m⸩ ⠋ reify:sucrase: [32;40mtiming[0m [35mreifyNode:node_modules/dom-helpers[0m Completed in 10563ms[0m[K⸨[107;97m##################[0m⸩ ⠸ reify:@fusioncharts/datatable: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@fusioncharts/datatable/-/datatable-1.8.1.tgz 9786ms (cache miss)[0m[K⸨[107;97m##################[0m⸩ ⠸ reify:@fusioncharts/datatable: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@fusioncharts/datatable/-/datatable-1.8.1.tgz 9786ms (cache miss)[0m[K⸨[107;97m##################[0m⸩ ⠴ reify:@babel/types: [32;40mtiming[0m [35mreifyNode:node_modules/@types/node[0m Completed in 10712ms[0m[K⸨[107;97m##################[0m⸩ ⠦ reify:chart.js: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/types[0m Completed in 10672ms[0m[K⸨[107;97m##################[0m⸩ ⠧ reify:rollup: [32;40mtiming[0m [35mreifyNode:node_modules/chart.js[0m Completed in 10809ms[0m[K⸨[107;97m##################[0m⸩ ⠧ reify:rollup: [32;40mtiming[0m [35mreifyNode:node_modules/chart.js[0m Completed in 10809ms[0m[K⸨[107;97m##################[0m⸩ ⠙ reify:@fusioncharts/core: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@fusioncharts/core/-/core-1.8.1.tgz 10095ms (cache miss)[0m[K⸨[107;97m##################[0m⸩ ⠹ reify:regenerate-unicode-properties: [32;40mtiming[0m [35mreifyNode:node_modules/@fusioncharts/core[0m Completed in 10917ms[0m[K⸨[107;97m##################[0m⸩ ⠹ reify:regenerate-unicode-properties: [32;40mtiming[0m [35mreifyNode:node_modules/@fusioncharts/core[0m Completed in 10917ms[0m[K⸨[107;97m##################[0m⸩ ⠸ reify:apexcharts: [32;40mtiming[0m [35mreifyNode:node_modules/regenerate-unicode-properties[0m Completed in 11227ms[0m[K⸨[107;97m##################[0m⸩ ⠸ reify:apexcharts: [32;40mtiming[0m [35mreifyNode:node_modules/regenerate-unicode-properties[0m Completed in 11227ms[0m[K⸨[107;97m##################[0m⸩ ⠸ reify:apexcharts: [32;40mtiming[0m [35mreifyNode:node_modules/regenerate-unicode-properties[0m Completed in 11227ms[0m[K⸨[107;97m##################[0m⸩ ⠸ reify:apexcharts: [32;40mtiming[0m [35mreifyNode:node_modules/regenerate-unicode-properties[0m Completed in 11227ms[0m[K⸨[107;97m##################[0m⸩ ⠸ reify:apexcharts: [32;40mtiming[0m [35mreifyNode:node_modules/regenerate-unicode-properties[0m Completed in 11227ms[0m[K⸨[107;97m##################[0m⸩ ⠸ reify:apexcharts: [32;40mtiming[0m [35mreifyNode:node_modules/regenerate-unicode-properties[0m Completed in 11227ms[0m[K⸨[107;97m##################[0m⸩ ⠸ reify:apexcharts: [32;40mtiming[0m [35mreifyNode:node_modules/regenerate-unicode-properties[0m Completed in 11227ms[0m[K⸨[107;97m##################[0m⸩ ⠧ reify:@typescript-eslint/scope-manager: [32;40mtiming[0m [35mreifyNode:node_modules/underscore[0m Completed in 11735ms[0m[K⸨[107;97m##################[0m⸩ ⠧ reify:@typescript-eslint/scope-manager: [32;40mtiming[0m [35mreifyNode:node_modules/underscore[0m Completed in 11735ms[0m[K⸨[107;97m##################[0m⸩ ⠧ reify:@typescript-eslint/scope-manager: [32;40mtiming[0m [35mreifyNode:node_modules/underscore[0m Completed in 11735ms[0m[K⸨[107;97m##################[0m⸩ ⠼ reify:ajv: [32;40mtiming[0m [35mreifyNode:node_modules/mini-css-extract-plugin/node_modules/ajv[0m Completed in 11788ms[0m[K⸨[107;97m##################[0m⸩ ⠦ reify:fusioncharts: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/fusioncharts/-/fusioncharts-3.21.1.tgz 10865ms (cache miss)[0m[K⸨[107;97m##################[0m⸩ ⠦ reify:fusioncharts: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/fusioncharts/-/fusioncharts-3.21.1.tgz 10865ms (cache miss)[0m[K⸨[107;97m##################[0m⸩ ⠦ reify:fusioncharts: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/fusioncharts/-/fusioncharts-3.21.1.tgz 10865ms (cache miss)[0m[K⸨[107;97m##################[0m⸩ ⠇ reify:eslint: [32;40mtiming[0m [35mreifyNode:node_modules/tailwindcss[0m Completed in 12064ms[0m[K⸨[107;97m##################[0m⸩ ⠇ reify:eslint: [32;40mtiming[0m [35mreifyNode:node_modules/tailwindcss[0m Completed in 12064ms[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:@typescript-eslint/eslint-plugin: [32;40mtiming[0m [35mreifyNode:node_modules/eslint[0m Completed in 11870ms[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:@typescript-eslint/eslint-plugin: [32;40mtiming[0m [35mreifyNode:node_modules/eslint[0m Completed in 11870ms[0m[K⸨[107;97m##################[0m⸩ ⠋ reify:@typescript-eslint/eslint-plugin: [32;40mtiming[0m [35mreifyNode:node_modules/eslint[0m Completed in 11870ms[0m[K⸨[107;97m##################[0m⸩ ⠼ reify:ramda: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/ramda/-/ramda-0.29.1.tgz 11349ms (cache miss)[0m[K⸨[107;97m##################[0m⸩ ⠼ reify:ramda: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/ramda/-/ramda-0.29.1.tgz 11349ms (cache miss)[0m[K⸨[107;97m##################[0m⸩ ⠼ reify:ramda: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/ramda/-/ramda-0.29.1.tgz 11349ms (cache miss)[0m[K⸨[107;97m##################[0m⸩ ⠼ reify:ramda: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/ramda/-/ramda-0.29.1.tgz 11349ms (cache miss)[0m[K⸨[107;97m##################[0m⸩ ⠼ reify:ramda: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/ramda/-/ramda-0.29.1.tgz 11349ms (cache miss)[0m[K⸨[107;97m##################[0m⸩ ⠦ reify:@fusioncharts/charts: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@fusioncharts/charts/-/charts-3.21.1.tgz 11420ms (cache miss)[0m[K⸨[107;97m##################[0m⸩ ⠦ reify:@fusioncharts/charts: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@fusioncharts/charts/-/charts-3.21.1.tgz 11420ms (cache miss)[0m[K⸨[107;97m##################[0m⸩ ⠧ reify:caniuse-lite: [32;40mtiming[0m [35mreifyNode:node_modules/@fusioncharts/charts[0m Completed in 12271ms[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:jspdf: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/jspdf/-/jspdf-2.5.1.tgz 11719ms (cache miss)[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:jspdf: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/jspdf/-/jspdf-2.5.1.tgz 11719ms (cache miss)[0m[K⸨[107;97m##################[0m⸩ ⠙ reify:webpack: [32;40mtiming[0m [35mreifyNode:node_modules/lodash[0m Completed in 12751ms[0m[K⸨[107;97m##################[0m⸩ ⠙ reify:webpack: [32;40mtiming[0m [35mreifyNode:node_modules/lodash[0m Completed in 12751ms[0m[K⸨[107;97m##################[0m⸩ ⠙ reify:webpack: [32;40mtiming[0m [35mreifyNode:node_modules/lodash[0m Completed in 12751ms[0m[K⸨[107;97m##################[0m⸩ ⠙ reify:webpack: [32;40mtiming[0m [35mreifyNode:node_modules/lodash[0m Completed in 12751ms[0m[K⸨[107;97m##################[0m⸩ ⠙ reify:webpack: [32;40mtiming[0m [35mreifyNode:node_modules/lodash[0m Completed in 12751ms[0m[K⸨[107;97m##################[0m⸩ ⠙ reify:webpack: [32;40mtiming[0m [35mreifyNode:node_modules/lodash[0m Completed in 12751ms[0m[K⸨[107;97m##################[0m⸩ ⠙ reify:webpack: [32;40mtiming[0m [35mreifyNode:node_modules/lodash[0m Completed in 12751ms[0m[K⸨[107;97m##################[0m⸩ ⠙ reify:webpack: [32;40mtiming[0m [35mreifyNode:node_modules/lodash[0m Completed in 12751ms[0m[K⸨[107;97m##################[0m⸩ ⠙ reify:webpack: [32;40mtiming[0m [35mreifyNode:node_modules/lodash[0m Completed in 12751ms[0m[K⸨[107;97m##################[0m⸩ ⠙ reify:webpack: [32;40mtiming[0m [35mreifyNode:node_modules/lodash[0m Completed in 12751ms[0m[K⸨[107;97m##################[0m⸩ ⠹ reify:es-abstract: [32;40mtiming[0m [35mreifyNode:node_modules/webpack[0m Completed in 12852ms[0m[K⸨[107;97m##################[0m⸩ ⠹ reify:es-abstract: [32;40mtiming[0m [35mreifyNode:node_modules/webpack[0m Completed in 12852ms[0m[K⸨[107;97m##################[0m⸩ ⠹ reify:es-abstract: [32;40mtiming[0m [35mreifyNode:node_modules/webpack[0m Completed in 12852ms[0m[K⸨[107;97m##################[0m⸩ ⠹ reify:es-abstract: [32;40mtiming[0m [35mreifyNode:node_modules/webpack[0m Completed in 12852ms[0m[K⸨[107;97m##################[0m⸩ ⠹ reify:es-abstract: [32;40mtiming[0m [35mreifyNode:node_modules/webpack[0m Completed in 12852ms[0m[K⸨[107;97m##################[0m⸩ ⠹ reify:es-abstract: [32;40mtiming[0m [35mreifyNode:node_modules/webpack[0m Completed in 12852ms[0m[K⸨[107;97m##################[0m⸩ ⠹ reify:es-abstract: [32;40mtiming[0m [35mreifyNode:node_modules/webpack[0m Completed in 12852ms[0m[K⸨[107;97m##################[0m⸩ ⠹ reify:es-abstract: [32;40mtiming[0m [35mreifyNode:node_modules/webpack[0m Completed in 12852ms[0m[K⸨[107;97m##################[0m⸩ ⠹ reify:es-abstract: [32;40mtiming[0m [35mreifyNode:node_modules/webpack[0m Completed in 12852ms[0m[K⸨[107;97m##################[0m⸩ ⠹ reify:es-abstract: [32;40mtiming[0m [35mreifyNode:node_modules/webpack[0m Completed in 12852ms[0m[K⸨[107;97m##################[0m⸩ ⠹ reify:es-abstract: [32;40mtiming[0m [35mreifyNode:node_modules/webpack[0m Completed in 12852ms[0m[K⸨[107;97m##################[0m⸩ ⠹ reify:es-abstract: [32;40mtiming[0m [35mreifyNode:node_modules/webpack[0m Completed in 12852ms[0m[K⸨[107;97m##################[0m⸩ ⠹ reify:es-abstract: [32;40mtiming[0m [35mreifyNode:node_modules/webpack[0m Completed in 12852ms[0m[K⸨[107;97m##################[0m⸩ ⠹ reify:es-abstract: [32;40mtiming[0m [35mreifyNode:node_modules/webpack[0m Completed in 12852ms[0m[K⸨[107;97m##################[0m⸩ ⠹ reify:es-abstract: [32;40mtiming[0m [35mreifyNode:node_modules/webpack[0m Completed in 12852ms[0m[K⸨[107;97m##################[0m⸩ ⠹ reify:es-abstract: [32;40mtiming[0m [35mreifyNode:node_modules/webpack[0m Completed in 12852ms[0m[K⸨[107;97m##################[0m⸩ ⠼ reify:core-js: [32;40mtiming[0m [35mreifyNode:node_modules/core-js-pure[0m Completed in 13902ms[0m[K⸨[107;97m##################[0m⸩ ⠧ reify:typescript: [32;40mtiming[0m [35mreifyNode:node_modules/core-js[0m Completed in 13909ms[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:typescript: [32;40mtiming[0m [35mreifyNode:node_modules/core-js[0m Completed in 13909ms[0m[K⸨[107;97m##################[0m⸩ ⠴ reify:typescript: [32;40mtiming[0m [35mreifyNode:node_modules/core-js[0m Completed in 13909ms[0m[K⸨[107;97m##################[0m⸩ ⠴ reify:typescript: [32;40mtiming[0m [35mreifyNode:node_modules/core-js[0m Completed in 13909ms[0m[K⸨[107;97m##################[0m⸩ ⠴ reify:typescript: [32;40mtiming[0m [35mreifyNode:node_modules/core-js[0m Completed in 13909ms[0m[K⸨[107;97m##################[0m⸩ ⠼ reify:typescript: [32;40mtiming[0m [35mreifyNode:node_modules/core-js[0m Completed in 13909ms[0m[K⸨[107;97m##################[0m⸩ ⠴ reify:typescript: [32;40mtiming[0m [35mreifyNode:node_modules/core-js[0m Completed in 13909ms[0m[K[K[?25h
+added 1643 packages, and audited 1644 packages in 16s
+
+247 packages are looking for funding
+  run `npm fund` for details
+
+[31m[1m8[22m[39m vulnerabilities (2 [33m[1mmoderate[22m[39m, 6 [31m[1mhigh[22m[39m)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                           ]2;antran@SGN-C02F40WJMD6T:~/Documents/project/highway-monitoring-fe-nodejs]1;..ing-fe-nodejs[0m[27m[24m[J[0m[49m[39m[0m[48;5;238m[38;5;255m [0m[38;5;255m[48;5;238m[48;5;238m[38;5;255m [0m[38;5;255m[48;5;238m[48;5;238m[38;5;246m[0m[38;5;246m[48;5;238m[48;5;238m[38;5;31m  [1m[38;5;31m[48;5;238m[38;5;39m~[0m[38;5;39m[48;5;238m[48;5;238m[38;5;31m/[38;5;103mDoc[0m[38;5;103m[48;5;238m[48;5;238m[38;5;31m/project/[1m[38;5;31m[48;5;238m[38;5;39mhighway-monitoring-fe-nodejs[0m[38;5;39m[48;5;238m[48;5;238m[38;5;31m[0m[38;5;31m[48;5;238m[48;5;238m[38;5;31m [0m[38;5;31m[48;5;238m[48;5;238m[38;5;246m[0m[38;5;246m[48;5;238m[48;5;238m[38;5;76m  [38;5;76m main [38;5;39m?1[0m[38;5;39m[48;5;238m[48;5;238m[38;5;76m [0m[38;5;76m[48;5;238m[49m[38;5;238m[0m[38;5;238m[49m[39m [0m[49m[39m[K[95C[0m[49m[38;5;238m[0m[38;5;238m[48;5;238m[38;5;70m [0m[38;5;70m[48;5;238m[48;5;238m[38;5;70m✔[0m[38;5;70m[48;5;238m[48;5;238m[38;5;70m [0m[38;5;70m[48;5;238m[48;5;238m[38;5;70m[0m[38;5;70m[48;5;238m[48;5;238m[38;5;248m[38;5;246m[0m[38;5;246m[48;5;238m[48;5;238m[38;5;248m 17s[0m[38;5;248m[48;5;238m[48;5;238m[38;5;248m [0m[38;5;248m[48;5;238m[48;5;238m[38;5;248m [0m[38;5;248m[48;5;238m[48;5;238m[38;5;248m[0m[38;5;248m[48;5;238m[48;5;238m[38;5;66m[38;5;246m[0m[38;5;246m[48;5;238m[48;5;238m[38;5;66m 11:11:37[0m[38;5;66m[48;5;238m[48;5;238m[38;5;66m [0m[38;5;66m[48;5;238m[48;5;238m[38;5;66m [0m[38;5;66m[48;5;238m[49m[39m[120D[?1h=[?2004hnnpm start[?1l>[?2004l
+]2;npm start]1;npm
+> highway-monitor-app@0.1.0 start
+> react-scripts start
+
+(node:67030) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:67030) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+[2J[3J[H[36mStarting the development server...[39m
+[36m[39m
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is not supported
+
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is not supported
+
+[eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+  [1mLine 179:21:[22m  'startTime' is assigned a value but never used        [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.charts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+  [1mLine 179:21:[22m  'startTime' is assigned a value but never used        [33m[4mno-unused-vars[24m[39m
+
+webpack compiled with [1m[33m3 warnings[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is not supported
+
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is not supported
+
+[eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+  [1mLine 179:21:[22m  'startTime' is assigned a value but never used        [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.charts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+  [1mLine 179:21:[22m  'startTime' is assigned a value but never used        [33m[4mno-unused-vars[24m[39m
+
+webpack compiled with [1m[33m3 warnings[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+SyntaxError: /Users/antran/Documents/project/highway-monitoring-fe-nodejs/src/components/SummaryItem.jsx: Unexpected token (7:19)
+[0m [90m  5 |[39m         [33m<[39m[33mdiv[39m style[33m=[39m{{width[33m:[39m [32m'500px'[39m[33m,[39m textAlign[33m:[39m [32m'center'[39m[33m,[39m padding[33m:[39m [32m'10px'[39m[33m,[39m border[33m:[39m [32m'1px solid #000000'[39m[33m,[39m}}[33m>[39m[0m
+[0m [90m  6 |[39m             [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m  7 |[39m                 [33m<[39m[33mh2[39m] style[33m=[39m{{fontSize[33m:[39m [32m'bold'[39m}}[33m>[39m{label}[33m<[39m[33m/[39m[33mh2[39m[33m>[39m[0m
+[0m [90m    |[39m                    [31m[1m^[22m[39m[0m
+[0m [90m  8 |[39m                 {description [33m?[39m [33m<[39m[33mp[39m style[33m=[39m{{color[33m:[39m [32m'grey'[39m}}[33m>[39m{description}[33m<[39m[33m/[39m[33mp[39m[33m>[39m [33m:[39m [36mnull[39m}[0m
+[0m [90m  9 |[39m             [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 10 |[39m             [33m<[39m[33mp[39m style[33m=[39m{{fontSize[33m:[39m [32m'70px'[39m[33m,[39m fontWeight[33m:[39m[32m'500'[39m}}[33m>[39m{value}[33m<[39m[33m/[39m[33mp[39m[33m>[39m[0m
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.charts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+  [1mLine 179:21:[22m  'startTime' is assigned a value but never used        [33m[4mno-unused-vars[24m[39m
+
+[1m[31mERROR[39m[22m in [1m./src/components/SummaryItem.jsx[39m[22m
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/antran/Documents/project/highway-monitoring-fe-nodejs/src/components/SummaryItem.jsx: Unexpected token (7:19)
+
+[0m [90m  5 |[39m         [33m<[39m[33mdiv[39m style[33m=[39m{{width[33m:[39m [32m'500px'[39m[33m,[39m textAlign[33m:[39m [32m'center'[39m[33m,[39m padding[33m:[39m [32m'10px'[39m[33m,[39m border[33m:[39m [32m'1px solid #000000'[39m[33m,[39m}}[33m>[39m[0m
+[0m [90m  6 |[39m             [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m  7 |[39m                 [33m<[39m[33mh2[39m] style[33m=[39m{{fontSize[33m:[39m [32m'bold'[39m}}[33m>[39m{label}[33m<[39m[33m/[39m[33mh2[39m[33m>[39m[0m
+[0m [90m    |[39m                    [31m[1m^[22m[39m[0m
+[0m [90m  8 |[39m                 {description [33m?[39m [33m<[39m[33mp[39m style[33m=[39m{{color[33m:[39m [32m'grey'[39m}}[33m>[39m{description}[33m<[39m[33m/[39m[33mp[39m[33m>[39m [33m:[39m [36mnull[39m}[0m
+[0m [90m  9 |[39m             [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 10 |[39m             [33m<[39m[33mp[39m style[33m=[39m{{fontSize[33m:[39m [32m'70px'[39m[33m,[39m fontWeight[33m:[39m[32m'500'[39m}}[33m>[39m{value}[33m<[39m[33m/[39m[33mp[39m[33m>[39m[0m
+    at constructor (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:356:19)
+    at FlowParserMixin.raise (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:3223:19)
+    at FlowParserMixin.unexpected (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:3253:16)
+    at FlowParserMixin.jsxParseIdentifier (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:6730:12)
+    at FlowParserMixin.jsxParseNamespacedName (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:6737:23)
+    at FlowParserMixin.jsxParseAttribute (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:6817:22)
+    at FlowParserMixin.jsxParseOpeningElementAfterName (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:6832:28)
+    at FlowParserMixin.jsxParseOpeningElementAt (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:6827:17)
+    at FlowParserMixin.jsxParseElementAt (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:6851:33)
+    at FlowParserMixin.jsxParseElementAt (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:6863:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:6863:32)
+    at FlowParserMixin.jsxParseElement (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:6920:17)
+    at FlowParserMixin.parseExprAtom (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:6932:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10862:23)
+    at FlowParserMixin.parseUpdate (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10845:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10821:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10659:61)
+    at FlowParserMixin.parseExprOps (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10664:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10641:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10602:21)
+    at /Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:5705:39
+    at FlowParserMixin.tryParse (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:3597:20)
+    at FlowParserMixin.parseMaybeAssign (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:5705:18)
+    at /Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10572:39
+    at FlowParserMixin.allowInAnd (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:12289:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10572:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:11504:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:5804:18)
+    at FlowParserMixin.parseExprAtom (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:11142:23)
+    at FlowParserMixin.parseExprAtom (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:6937:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10862:23)
+    at FlowParserMixin.parseUpdate (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10845:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10821:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10659:61)
+    at FlowParserMixin.parseExprOps (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10664:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10641:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10602:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:5760:18)
+    at FlowParserMixin.parseExpressionBase (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10556:23)
+    at /Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10552:39
+    at FlowParserMixin.allowInAnd (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:12284:16)
+    at FlowParserMixin.parseExpression (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10552:17)
+    at FlowParserMixin.parseReturnStatement (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:13008:28)
+    at FlowParserMixin.parseStatementContent (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:12626:21)
+    at FlowParserMixin.parseStatementLike (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:12593:17)
+    at FlowParserMixin.parseStatementLike (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:5093:24)
+    at FlowParserMixin.parseStatementListItem (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:12573:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:13194:61)
+    at FlowParserMixin.parseBlockBody (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:13187:10)
+    at FlowParserMixin.parseBlock (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:13175:10)
+
+[1m[31mERROR[39m[22m in [eslint] 
+src/components/SummaryItem.jsx
+  [1mLine 7:19:[22m  Parsing error: Unexpected token (7:19)
+
+webpack compiled with [1m[31m2 errors[39m[22m and [1m[33m3 warnings[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+SyntaxError: /Users/antran/Documents/project/highway-monitoring-fe-nodejs/src/components/SummaryItem.jsx: Unexpected token (7:19)
+[0m [90m  5 |[39m         [33m<[39m[33mdiv[39m style[33m=[39m{{width[33m:[39m [32m'500px'[39m[33m,[39m textAlign[33m:[39m [32m'center'[39m[33m,[39m padding[33m:[39m [32m'10px'[39m[33m,[39m border[33m:[39m [32m'1px solid #000000'[39m[33m,[39m}}[33m>[39m[0m
+[0m [90m  6 |[39m             [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m  7 |[39m                 [33m<[39m[33mh2[39m] style[33m=[39m{{fontSize[33m:[39m [32m'bold'[39m}}[33m>[39m{label}[33m<[39m[33m/[39m[33mh2[39m[33m>[39m[0m
+[0m [90m    |[39m                    [31m[1m^[22m[39m[0m
+[0m [90m  8 |[39m                 {description [33m?[39m [33m<[39m[33mp[39m style[33m=[39m{{color[33m:[39m [32m'grey'[39m}}[33m>[39m{description}[33m<[39m[33m/[39m[33mp[39m[33m>[39m [33m:[39m [36mnull[39m}[0m
+[0m [90m  9 |[39m             [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 10 |[39m             [33m<[39m[33mp[39m style[33m=[39m{{fontSize[33m:[39m [32m'70px'[39m[33m,[39m fontWeight[33m:[39m[32m'500'[39m}}[33m>[39m{value}[33m<[39m[33m/[39m[33mp[39m[33m>[39m[0m
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.charts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+  [1mLine 179:21:[22m  'startTime' is assigned a value but never used        [33m[4mno-unused-vars[24m[39m
+
+[1m[31mERROR[39m[22m in [1m./src/components/SummaryItem.jsx[39m[22m
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/antran/Documents/project/highway-monitoring-fe-nodejs/src/components/SummaryItem.jsx: Unexpected token (7:19)
+
+[0m [90m  5 |[39m         [33m<[39m[33mdiv[39m style[33m=[39m{{width[33m:[39m [32m'500px'[39m[33m,[39m textAlign[33m:[39m [32m'center'[39m[33m,[39m padding[33m:[39m [32m'10px'[39m[33m,[39m border[33m:[39m [32m'1px solid #000000'[39m[33m,[39m}}[33m>[39m[0m
+[0m [90m  6 |[39m             [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m  7 |[39m                 [33m<[39m[33mh2[39m] style[33m=[39m{{fontSize[33m:[39m [32m'bold'[39m}}[33m>[39m{label}[33m<[39m[33m/[39m[33mh2[39m[33m>[39m[0m
+[0m [90m    |[39m                    [31m[1m^[22m[39m[0m
+[0m [90m  8 |[39m                 {description [33m?[39m [33m<[39m[33mp[39m style[33m=[39m{{color[33m:[39m [32m'grey'[39m}}[33m>[39m{description}[33m<[39m[33m/[39m[33mp[39m[33m>[39m [33m:[39m [36mnull[39m}[0m
+[0m [90m  9 |[39m             [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 10 |[39m             [33m<[39m[33mp[39m style[33m=[39m{{fontSize[33m:[39m [32m'70px'[39m[33m,[39m fontWeight[33m:[39m[32m'500'[39m}}[33m>[39m{value}[33m<[39m[33m/[39m[33mp[39m[33m>[39m[0m
+    at constructor (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:356:19)
+    at FlowParserMixin.raise (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:3223:19)
+    at FlowParserMixin.unexpected (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:3253:16)
+    at FlowParserMixin.jsxParseIdentifier (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:6730:12)
+    at FlowParserMixin.jsxParseNamespacedName (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:6737:23)
+    at FlowParserMixin.jsxParseAttribute (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:6817:22)
+    at FlowParserMixin.jsxParseOpeningElementAfterName (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:6832:28)
+    at FlowParserMixin.jsxParseOpeningElementAt (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:6827:17)
+    at FlowParserMixin.jsxParseElementAt (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:6851:33)
+    at FlowParserMixin.jsxParseElementAt (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:6863:32)
+    at FlowParserMixin.jsxParseElementAt (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:6863:32)
+    at FlowParserMixin.jsxParseElement (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:6920:17)
+    at FlowParserMixin.parseExprAtom (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:6932:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10862:23)
+    at FlowParserMixin.parseUpdate (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10845:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10821:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10659:61)
+    at FlowParserMixin.parseExprOps (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10664:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10641:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10602:21)
+    at /Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:5705:39
+    at FlowParserMixin.tryParse (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:3597:20)
+    at FlowParserMixin.parseMaybeAssign (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:5705:18)
+    at /Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10572:39
+    at FlowParserMixin.allowInAnd (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:12289:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10572:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:11504:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:5804:18)
+    at FlowParserMixin.parseExprAtom (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:11142:23)
+    at FlowParserMixin.parseExprAtom (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:6937:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10862:23)
+    at FlowParserMixin.parseUpdate (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10845:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10821:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10659:61)
+    at FlowParserMixin.parseExprOps (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10664:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10641:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10602:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:5760:18)
+    at FlowParserMixin.parseExpressionBase (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10556:23)
+    at /Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10552:39
+    at FlowParserMixin.allowInAnd (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:12284:16)
+    at FlowParserMixin.parseExpression (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:10552:17)
+    at FlowParserMixin.parseReturnStatement (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:13008:28)
+    at FlowParserMixin.parseStatementContent (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:12626:21)
+    at FlowParserMixin.parseStatementLike (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:12593:17)
+    at FlowParserMixin.parseStatementLike (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:5093:24)
+    at FlowParserMixin.parseStatementListItem (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:12573:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:13194:61)
+    at FlowParserMixin.parseBlockBody (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:13187:10)
+    at FlowParserMixin.parseBlock (/Users/antran/Documents/project/highway-monitoring-fe-nodejs/node_modules/@babel/parser/lib/index.js:13175:10)
+
+[1m[31mERROR[39m[22m in [eslint] 
+src/components/SummaryItem.jsx
+  [1mLine 7:19:[22m  Parsing error: Unexpected token (7:19)
+
+webpack compiled with [1m[31m2 errors[39m[22m and [1m[33m3 warnings[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is not supported
+
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is not supported
+
+[eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+  [1mLine 179:21:[22m  'startTime' is assigned a value but never used        [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.charts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+  [1mLine 179:21:[22m  'startTime' is assigned a value but never used        [33m[4mno-unused-vars[24m[39m
+
+webpack compiled with [1m[33m3 warnings[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is not supported
+
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is not supported
+
+[eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+  [1mLine 179:21:[22m  'startTime' is assigned a value but never used        [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.charts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+  [1mLine 179:21:[22m  'startTime' is assigned a value but never used        [33m[4mno-unused-vars[24m[39m
+
+webpack compiled with [1m[33m3 warnings[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is not supported
+
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is not supported
+
+[eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+  [1mLine 179:21:[22m  'startTime' is assigned a value but never used        [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.charts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+  [1mLine 179:21:[22m  'startTime' is assigned a value but never used        [33m[4mno-unused-vars[24m[39m
+
+webpack compiled with [1m[33m3 warnings[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is not supported
+
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is not supported
+
+[eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+  [1mLine 179:21:[22m  'startTime' is assigned a value but never used        [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.charts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+  [1mLine 179:21:[22m  'startTime' is assigned a value but never used        [33m[4mno-unused-vars[24m[39m
+
+webpack compiled with [1m[33m3 warnings[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is not supported
+
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is not supported
+
+[eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.charts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+
+webpack compiled with [1m[33m3 warnings[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is not supported
+
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is not supported
+
+[eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.charts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+
+webpack compiled with [1m[33m3 warnings[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is not supported
+
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is not supported
+
+[eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.charts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+
+webpack compiled with [1m[33m3 warnings[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is not supported
+
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is not supported
+
+[eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.charts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+
+webpack compiled with [1m[33m3 warnings[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is not supported
+
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is not supported
+
+[eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.charts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+
+webpack compiled with [1m[33m3 warnings[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is not supported
+
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is not supported
+
+[eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.charts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/App.js
+  [1mLine 9:8:[22m     'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 172:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+
+webpack compiled with [1m[33m3 warnings[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is not supported
+
+Failed to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is not supported
+
+[eslint] 
+src/App.js
+  [1mLine 5:8:[22m     'moment' is defined but never used                    [33m[4mno-unused-vars[24m[39m
+  [1mLine 10:8:[22m    'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 16:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 23:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 23:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 173:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.charts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.charts.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/fusioncharts/fusioncharts.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map: 'http://localhost:3052/3.21.1/map/eval/fusioncharts.common.js.map' URL is [1m[31mnot supported[39m[22m[1m[39m[22m
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/App.js
+  [1mLine 5:8:[22m     'moment' is defined but never used                    [33m[4mno-unused-vars[24m[39m
+  [1mLine 10:8:[22m    'ReactFC' is defined but never used                   [33m[4mno-unused-vars[24m[39m
+  [1mLine 16:8:[22m    'Column2D' is defined but never used                  [33m[4mno-unused-vars[24m[39m
+  [1mLine 23:10:[22m   'realtimeData' is assigned a value but never used     [33m[4mno-unused-vars[24m[39m
+  [1mLine 23:24:[22m   'setRealtimeData' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 173:17:[22m  'date' is assigned a value but never used             [33m[4mno-unused-vars[24m[39m
+
+webpack compiled with [1m[33m3 warnings[39m[22m
