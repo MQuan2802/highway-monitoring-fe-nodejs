@@ -2,6 +2,7 @@ import React from "react";
 import { SummaryItem, SummaryPie } from "./components";
 import "./App.css";
 import Select from 'react-select';
+import moment from 'moment'
 
 
 
@@ -24,7 +25,7 @@ function App() {
   
   function fetchRealtimeData() {
     return new Promise(function (resolve, reject) {
-      fetch('http://localhost:8080/api/realtimeInsights')
+      fetch('http://localhost:3500/api/realtimeInsights')
         .then(function (response) {
           if (!response.ok) {
             throw new Error('Network response was not ok');
@@ -42,7 +43,7 @@ function App() {
 
 
   // const fetchRealtimeData = () => {
-  //   fetch("http://localhost:8080/api/realtimeInsights")
+  //   fetch("http://localhost:3500/api/realtimeInsights")
   //     .then(async (response) => {
   //       if (response.ok) {
   //         const jsonRes = await response.json();
@@ -53,7 +54,7 @@ function App() {
   // };
 
   const handleSelectChange = (selectedOption) => {
-      fetch(`http://localhost:8080/api/dailyInsights?requestDate=${selectedOption.value}`)
+      fetch(`http://localhost:3500/api/dailyInsights?requestDate=${selectedOption.value}`)
         .then(async (response) => {
           if (response.ok) {
             const jsonRes = await response.json();
@@ -79,7 +80,7 @@ function App() {
   }, []);
 
   React.useEffect(() => {
-    fetch("http://localhost:8080/api/dailyInsights")
+    fetch("http://localhost:3500/api/dailyInsights")
       .then(async (response) => {
         if (response.ok) {
           const jsonRes = await response.json();
@@ -168,24 +169,16 @@ function App() {
               var chartRef = evt.sender;
   
               function updateData() {
-                var t = new Date(),
-                date =
-                  t.getHours() + ":" + t.getMinutes() + ":" + t.getSeconds();
-
-              // Fetch updated real-time data asynchronously
-              fetchRealtimeData().then(function (updatedData) {
-                var val = updatedData?.exit_count ?? 0;
-                // rtData = updatedData;
-                let startTime = updatedData?.window_start ? new Date(updatedData.window_start).toLocaleTimeString() : null;
-                let endTime = updatedData?.window_end ? new Date(updatedData.window_end).toLocaleTimeString() : null;
-                console.log("update chart data"+updateData);
-                var strData = "&label=" + endTime + "&value=" + val;
-                
-                // Feed the updated data to the chart
-                chartRef.feedData(strData);
-              });
-            }
-
+                // Fetch updated real-time data asynchronously
+                fetchRealtimeData().then(function (updatedData) {
+                  var val = updatedData?.exit_count ?? 0;
+                  let endTime = updatedData?.window_end ? moment(updatedData.window_end).local(true).format("HH:mm:ss") : null;
+                  var strData = "&label=" + endTime + "&value=" + val;
+                  
+                  // Feed the updated data to the chart
+                  chartRef.feedData(strData);
+                });
+              }
             chartRef.intervalUpdateId = setInterval(updateData, TEN_SECONDS);
            },
   
@@ -275,7 +268,11 @@ function App() {
 
   return (
     <div className="main">
+      <h1>
+        High way monitoring dashboard
+      </h1>
       <Select
+        style={{width: 200}}
         options={availableDates}
         value={selectedDate}
         onChange={handleSelectChange}
@@ -316,20 +313,6 @@ function App() {
           description="in rush hour"
           value={data?.evening_rush_hour_entry ?? 0}
         />
-      </div>
-      <div className="rowItem">
-        {/* <SummaryItem
-          label="Total Car Entry"
-          description="in last minute"
-          value={realtimeData?.exit_count ?? 0}
-        /> */}
-        {/* <SummaryItem
-          label="Total Car Exit"
-          description="in last minute"
-          value={realtimeData?.entry_count ?? 0}
-        /> */}
-        
-      
       </div>
       <div className="rowItem">
        
