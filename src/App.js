@@ -2,18 +2,21 @@ import React from "react";
 import { SummaryItem, SummaryPie } from "./components";
 import "./App.css";
 import Select from 'react-select';
-import moment from 'moment'
-
+import moment from 'moment';
+import FusionCharts from 'fusioncharts';
+import Charts from 'fusioncharts/fusioncharts.charts';
+import FusionTheme from 'fusioncharts/themes/fusioncharts.theme.fusion';
+import ReactFC from 'react-fusioncharts';
 
 
 // Step 2 - Include the react-fusioncharts component
-import ReactFC from "react-fusioncharts";
+// import ReactFC from "react-fusioncharts";
 
 // Step 3 - Include the fusioncharts library
-import FusionCharts from "fusioncharts";
+// import FusionCharts from "fusioncharts";
 
 // Step 4 - Include the chart type
-import Column2D from "fusioncharts/fusioncharts.charts";
+// import Column2D from "fusioncharts/fusioncharts.charts";
 
 
 const TEN_SECONDS = 10000;
@@ -22,7 +25,7 @@ function App() {
   const [data, setData] = React.useState();
   const [realtimeData, setRealtimeData] = React.useState();
   const [rtData, setRtData] = React.useState();
-  
+  ReactFC.fcRoot(FusionCharts, Charts, FusionTheme);
   function fetchRealtimeData() {
     return new Promise(function (resolve, reject) {
       fetch('http://localhost:8080/api/realtimeInsights')
@@ -100,7 +103,7 @@ function App() {
   React.useEffect(() => {
     console.log("hello");
   }, []);
-
+  
   FusionCharts.ready(function() {
     var d = new Date();
     var monthArr = [
@@ -124,31 +127,29 @@ function App() {
         type: "realtimeline",
   
         renderAt: "chart-container2",
-        width: "522",
+        width: "600",
         height: "400",
         dataFormat: "json",
         dataSource: {
            chart: {
+              baseFontSize: "15",
               caption: "Vehicle Exit",
               subCaption: outDate2,
               numberPrefix: "",
               numdisplaysets: "10",
               labeldisplay: "rotate",
-              showRealTimeValue: "0",
-              theme: "umber",
-              plotToolText: "$label<br>Price: <b>$dataValue</b>",
-              setAdaptiveYMin: "1"
+              showRealTimeValue: "2",
+              plotToolText: "$label<br>Count: <b>$dataValue</b>",
+              setAdaptiveYMin: "1",
+              theme: "fusion"
            },
            categories: [
               {
                  category: [
                     {
                        label: 
-                          d.getHours() +
-                          ":" +
-                          d.getMinutes() +
-                          ":" +
-                          d.getSeconds()
+                       rtData?.window_end ? moment(rtData.window_end).local(true).format("HH:mm:ss") : null
+
                     }
                  ]
               }
@@ -192,20 +193,23 @@ function App() {
        type: "realtimeline",
  
        renderAt: "chart-container",
-       width: "522",
+       width: "600",
        height: "400",
        dataFormat: "json",
        dataSource: {
           chart: {
+            baseFontSize: "15",
              caption: "Vehicle Entry",
              subCaption: outDate2,
              numberPrefix: "",
              numdisplaysets: "10",
              labeldisplay: "rotate",
-             showRealTimeValue: "0",
-             theme: "candy",
-             plotToolText: "$label<br>Price: <b>$dataValue</b>",
-             setAdaptiveYMin: "1"
+             showRealTimeValue: "1",
+             plotToolText: "$label<br>Count: <b>$dataValue</b>",
+             setAdaptiveYMin: "1",
+             theme: "fusion",
+             baseFontWeight: "300",
+             baseFontColor:"#0066cc"
           },
           categories: [
              {
@@ -213,11 +217,7 @@ function App() {
                 
                    {
                       label:
-                         d.getHours() +
-                         ":" +
-                         d.getMinutes() +
-                         ":" +
-                         d.getSeconds()
+                      rtData?.window_end ? moment(rtData.window_end).local(true).format("HH:mm:ss") : null
                    }
                 ]
              }
@@ -239,17 +239,10 @@ function App() {
              var chartRef = evt.sender;
  
              function updateData() {
-              var t = new Date(),
-              date =
-                t.getHours() + ":" + t.getMinutes() + ":" + t.getSeconds();
-
-            // var val = rtData?.entry_count ?? 0;
-            // var strData = "&label=" + date + "&value=" + val;
-            // chartRef.feedData(strData);
-            // Fetch updated real-time data asynchronously
-            fetchRealtimeData().then(function (updatedData) {
-              var val = updatedData.entry_count ?? 0;
-              var strData = "&label=" + date + "&value=" + val;
+              fetchRealtimeData().then(function (updatedData) {
+                var val = updatedData?.entry_count ?? 0;
+                let endTime = updatedData?.window_end ? moment(updatedData.window_end).local(true).format("HH:mm:ss") : null;
+                var strData = "&label=" + endTime + "&value=" + val;
 
               // Feed the updated data to the chart
               chartRef.feedData(strData);
@@ -267,12 +260,12 @@ function App() {
   });
 
   return (
-    <div className="main">
+    <div className="main" >
       <h1>
         HIGHWAY MONITORING DASHBOARD
       </h1>
       <Select
-        style={{width: 200}}
+        style={{width: 200, fontSize: 15}}
         options={availableDates}
         value={selectedDate}
         onChange={handleSelectChange}
@@ -289,7 +282,7 @@ function App() {
         <>
             <div id="chart-container" />
         </>
-        <SummaryItem label="Total Vehicle" value={data?.total_in ?? 0} />
+        <SummaryItem label="Total Vehicle" description="In a day"value={data?.total_in ?? 0} />
         <SummaryItem label="Average Speed" description="KM/H" value={data?.average_speed ?? 0} />
       </div>
       <div className="rowItem">
@@ -305,18 +298,19 @@ function App() {
         </>
         <SummaryItem
           label="Total Car Entry"
-          description="in morning rush hour"
+          description="In morning rush hour"
           value={data?.morning_rush_hour_entry ?? 0}
         />
         <SummaryItem
           label="Total Car ENTRY"
-          description="in evening rush hour"
+          description="In evening rush hour"
           value={data?.evening_rush_hour_entry ?? 0}
         />
       </div>
       <div className="rowItem">
        
       </div>
+     
     </div>
   );
 }
