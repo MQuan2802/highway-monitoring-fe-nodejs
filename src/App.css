@@ -11,9 +11,10 @@
 
 .rowItem {
     display: flex;
-    flex-diraction: row;
+    flex-diraction: column;
     justify-content: center;
     gap: 10px;
 
     width: 100%;
+    margin: 10px 0;
 }
