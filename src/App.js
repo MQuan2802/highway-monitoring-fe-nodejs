@@ -1,12 +1,13 @@
 import React from "react";
-import { SummaryItem, SummaryPie } from "./components";
-import "./App.css";
-import Select from 'react-select';
 import moment from 'moment';
 import FusionCharts from 'fusioncharts';
 import Charts from 'fusioncharts/fusioncharts.charts';
 import FusionTheme from 'fusioncharts/themes/fusioncharts.theme.fusion';
 import ReactFC from 'react-fusioncharts';
+
+import {DailyReport} from './DailyReport'
+
+import "./App.css";
 
 
 // Step 2 - Include the react-fusioncharts component
@@ -22,8 +23,6 @@ import ReactFC from 'react-fusioncharts';
 const TEN_SECONDS = 10000;
 
 function App() {
-  const [data, setData] = React.useState();
-  const [realtimeData, setRealtimeData] = React.useState();
   const [rtData, setRtData] = React.useState();
   ReactFC.fcRoot(FusionCharts, Charts, FusionTheme);
   function fetchRealtimeData() {
@@ -44,64 +43,9 @@ function App() {
     });
   }
 
-
-  // const fetchRealtimeData = () => {
-  //   fetch("http://localhost:3500/api/realtimeInsights")
-  //     .then(async (response) => {
-  //       if (response.ok) {
-  //         const jsonRes = await response.json();
-  //         setRealtimeData(jsonRes);
-  //       }
-  //     })
-  //     .catch(() => alert("Unexpected error when fetching data .."));
-  // };
-
-  const handleSelectChange = (selectedOption) => {
-      fetch(`http://localhost:8080/api/dailyInsights?requestDate=${selectedOption.value}`)
-        .then(async (response) => {
-          if (response.ok) {
-            const jsonRes = await response.json();
-            setData(jsonRes);
-            setSelectedDate({label:jsonRes.currentStatisticDate, value:jsonRes.currentStatisticDate})
-            let dateMap = [];
-            jsonRes.availableDates?.forEach(date => {
-              dateMap.push({label:date,value:date})         
-            });
-            console.log(dateMap);
-            setAvailableDates(dateMap);
-          }
-        })
-        .catch(() => alert("Unexpected error when fetching data .."));
-  };
-
-  const [selectedDate, setSelectedDate] = React.useState({label:"Fetching...",value:""});
-  const [availableDates, setAvailableDates] = React.useState([]);
-
   // const defaultValue = data.currentStatisticDate;
   React.useEffect(() => {
     fetchRealtimeData().then(data => setRtData(data));    
-  }, []);
-
-  React.useEffect(() => {
-    fetch("http://localhost:8080/api/dailyInsights")
-      .then(async (response) => {
-        if (response.ok) {
-          const jsonRes = await response.json();
-          setData(jsonRes);
-          setSelectedDate({label:jsonRes.currentStatisticDate, value:jsonRes.currentStatisticDate})
-          let dateMap = [];
-          jsonRes.availableDates?.forEach(date => {
-            dateMap.push({label:date,value:date})         
-          });
-          console.log(dateMap);
-          setAvailableDates(dateMap);
-        }
-      })
-      .catch(() => alert("Unexpected error when fetching data .."));
-  }, []);
-
-  React.useEffect(() => {
-    console.log("hello");
   }, []);
   
   FusionCharts.ready(function() {
@@ -264,52 +208,12 @@ function App() {
       <h1>
         HIGHWAY MONITORING DASHBOARD
       </h1>
-      <Select
-        style={{width: 200, fontSize: 15}}
-        options={availableDates}
-        value={selectedDate}
-        onChange={handleSelectChange}
-      />
-      <div className="rowItem">
-        <SummaryPie
-          label="Type of Vehicle"
-          chartData={[
-            { label: "truck", value: data?.truck ?? 0 },
-            { label: "bus", value: data?.bus ?? 0 },
-            { label: "car", value: data?.car ?? 0 },
-          ]}
-        />
-        <>
-            <div id="chart-container" />
-        </>
-        <SummaryItem label="Total Vehicle" description="In a day"value={data?.total_in ?? 0} />
-        <SummaryItem label="Average Speed" description="KM/H" value={data?.average_speed ?? 0} />
+      <div className="rowItem" style={{paddingBottom: '8px'}}>
+        <div id="chart-container" />
+        <div id="chart-container2" />
       </div>
-      <div className="rowItem">
-        <SummaryPie
-          label="Commercial/Non-commercial"
-          chartData={[
-            { label: "commercial", value: data?.commercial ?? 0 },
-            { label: "non-commercial", value: data?.non_commerical ?? 0 },
-          ]}
-        />
-          <>
-            <div id="chart-container2" />
-        </>
-        <SummaryItem
-          label="Total Car Entry"
-          description="In morning rush hour"
-          value={data?.morning_rush_hour_entry ?? 0}
-        />
-        <SummaryItem
-          label="Total Car ENTRY"
-          description="In evening rush hour"
-          value={data?.evening_rush_hour_entry ?? 0}
-        />
-      </div>
-      <div className="rowItem">
-       
-      </div>
+      <DailyReport />
+
      
     </div>
   );
